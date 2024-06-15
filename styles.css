@@ -1,0 +1,209 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+body {
+    background-image: url('home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    min-height: 100vh;
+    
+   
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(23, 65, 148, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+  border: 1px solid white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  color: white;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  background: transparent;
+  box-sizing: border-box;
+  
+  
+}
+
+.header .logo {
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: var(--white);
+  text-decoration: none;
+
+}
+
+.header a{
+  font-size: 1rem;
+  margin: 0 6rem;
+  color: var(--white);
+  text-decoration: none;
+
+}
+header ul{
+  color: white;
+  font-size: 1rem;
+  margin: 0 15rem;
+  text-decoration: none;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.btn{
+    
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    font-weight:bold;
+    background-color: transparent;
+    border: 2px solid yellow;
+    font-size: 1rem;
+    margin-top: 30px;
+    transition-property: background-color, color;
+    border-radius: 10px;
+    align-content: center;
+    text-decoration: none;
+   
+  }
+
+
+  h1{
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    font-size: 80px;
+    text-align: center;
+    
+
+  }
+  h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    font-style: none;
+    
+
+  }
+  .listProduct {
+    
+    text-align:left;
+    display: flex;
+    margin-bottom: 500px;
+    width: 300px;
+    height: 500px;
+    margin: 40px 10px -2000px 0px; 
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increase shadow */
+  }
+  .listProduct a{
+    color: rgb(71, 121, 238);
+  }
+  .item img{
+    width: 300px;
+    height: 225px;
+    border-radius: 20px 20px 0px 0px;
+
+  }
+  h3{
+    color:black;
+}
+.contact-us{
+  
+  width: 100%; 
+  height: 700px;
+  margin-bottom: -7000px;
+  background-color: rgb(249, 249, 246);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.contact-us h2{
+  color: rgb(0, 0, 0); 
+  font-size: 50px;
+}
+
+
+
+
+.contact-us input{
+  border:2px solid grey;
+  display: block;
+  background-color: transparent;
+  height: 4px;
+  width: 80%;
+  padding: 20px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border:5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.contact-us textarea {
+  display: block;
+  background-color: transparent;
+  height: 4px;
+  width: 80%;
+  padding: 20px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  border:5px;
+  
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contact-us button {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: 2px solid rgb(0, 89, 255);
+  width: 140px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-us button:hover {
+ 
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+}
